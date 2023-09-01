@@ -21,7 +21,7 @@ export default function ExecutiveCommittee() {
         style={{ scaleX: scaleX }}
       />
 	 <section class="text-gray-600  body-font">
-  <div  class="container px-5 md:py-8 mx-auto">
+  <div  class="container px-5 md:py-8 py-10 mx-auto">
     <div class="flex flex-col py-10 text-center w-full md:mb-8">
       <h1 class="text-4xl font-medium title-font mb-4 text-gray-900">Committee members</h1>
     </div>
