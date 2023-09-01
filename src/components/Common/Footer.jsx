@@ -44,7 +44,7 @@ export default function Footer() {
     <div className="lg:w-1/3 md:w-1/3 w-full px-4">
         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SUBSCRIBE</h2>
         <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-          <form action='mailto:ietechennai@gmail.com' className="relative w-40  sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+          <form action='mailto:ietechennai@gmail.com' className="relative w-40  sm:w-auto xl:mr-4 mb-3 lg:mr-0 sm:mr-4 mr-2">
             <label for="footer-field" className="leading-7 text-sm text-gray-400">Join Our Newsletter</label>
             <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-indigo-900 focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
           </form>
