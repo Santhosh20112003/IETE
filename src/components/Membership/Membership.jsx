@@ -75,7 +75,7 @@ export default function Membership() {
               </svg>
             </span>Associate member (AM)
           </p>
-         <a href="https://iete.org/index111.html" className='mt-2' target="_blank">
+         <a rel="noreferrer" href="https://iete.org/index111.html" className='mt-2' target="_blank">
          <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -125,7 +125,7 @@ export default function Membership() {
             </span>Diploma Member (DipIETE Passout) (DIP)
           </p>
           
-          <a href="https://iete.org/index111.html" target="_blank">
+          <a rel="noreferrer" href="https://iete.org/index111.html" target="_blank">
          <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -138,19 +138,19 @@ export default function Membership() {
         <div data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000" class="h-full p-6 rounded-lg  border-2 border-gray-300 flex flex-col justify-center items-center relative overflow-hidden">
           <h2 className="text-2xl mb-5 font-bold text-black">Common Links</h2>
           
-          <a target="_blank" href='https://iete.org/IETE1_CORPUP.pdf' class="flex items-center text-indigo-600 underline mb-2">
+          <a rel="noreferrer" target="_blank" href='https://iete.org/IETE1_CORPUP.pdf' class="flex items-center text-indigo-600 underline mb-2">
             Corporate Member
           </a>
-          <a target="_blank" href="https://iete.org/CE_Formup.pdf" class="flex items-center text-indigo-600 underline mb-2">
+          <a rel="noreferrer" target="_blank" href="https://iete.org/CE_Formup.pdf" class="flex items-center text-indigo-600 underline mb-2">
             Chartered Engineer
           </a>
-          <a target="_blank" href='https://iete.org/orgmemup.pdf' class="flex items-center text-indigo-600 underline mb-2">
+          <a rel="noreferrer" target="_blank" href='https://iete.org/orgmemup.pdf' class="flex items-center text-indigo-600 underline mb-2">
             Organisational Member
           </a>
-          <a target="_blank" href='https://iete.org/AMMEM.pdf' class="flex items-center text-indigo-600 underline mb-2">
+          <a rel="noreferrer" target="_blank" href='https://iete.org/AMMEM.pdf' class="flex items-center text-indigo-600 underline mb-2">
             AMIETE
           </a>
-          <a target="_blank" href='https://iete.org/DIPMEM.pdf' class="flex items-center text-indigo-600 underline mb-6">
+          <a rel="noreferrer" target="_blank" href='https://iete.org/DIPMEM.pdf' class="flex items-center text-indigo-600 underline mb-6">
             DIPIETE
           </a>
           
