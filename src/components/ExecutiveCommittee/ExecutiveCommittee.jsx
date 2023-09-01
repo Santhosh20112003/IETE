@@ -25,7 +25,7 @@ export default function ExecutiveCommittee() {
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="text-4xl font-medium title-font mb-4 text-gray-900">Committee members</h1>
     </div>
-    <div class="flex flex-wrap justify-center -m-4">
+    <div class="flex flex-wrap justify-center md:justify-start -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/4">
         <div  data-aos="zoom-out" data-aos-duration="1000" class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56  object-contain bg-grey-900 object-center mb-4" src="https://ik.imagekit.io/iete/assets/6.jpg?updatedAt=1693499088906" />
