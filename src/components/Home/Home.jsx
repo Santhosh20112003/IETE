@@ -30,7 +30,7 @@ export default function Home() {
       <h1  class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">Learning Today,
         <br class="hidden lg:inline-block" />Leading Tomorrow
       </h1>
-      <p  class="mb-8 leading-relaxed text-xl text-slate-300">ETE is governed by its elected Governing Council headed by an elected President. It has on its roll the Secretary General – the head of IETE Secretariat as Chief Executive.</p>
+      <p  class="mb-8 leading-relaxed text-xl text-slate-300">The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognized professional society devoted to the advancement of science, technology, electronics, telecommunication and information technology</p>
       <div class="flex justify-center">
         <Link to="/gallery">
         <button  class="flex hover:translate-x-3 transition-all items-center gap-4 text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg">Explore Now<i className="fas  fa-arrow-right-long"></i></button></Link>
