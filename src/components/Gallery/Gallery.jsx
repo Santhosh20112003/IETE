@@ -16,11 +16,12 @@ export default function Gallery() {
 		 });
   return (
     <>
-    <section class="text-gray-600 body-font">
     <motion.div
         className="progress-bar fixed top-0 left-0 right-0 h-[5px] bg-red-600 z-50 origin-[0%] "
         style={{ scaleX: scaleX }}
       />
+    <section class="text-gray-600 body-font">
+    
     <div class="container px-5 pt-16 pb-10 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">IETE Collections</h1>
@@ -28,7 +29,7 @@ export default function Gallery() {
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" >
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000" >
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/chencon2022.jpeg?updatedAt=1693413810930" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">IETE CHENCON 2022 - Call for Papers</h2>
@@ -38,7 +39,7 @@ export default function Gallery() {
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer " data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer " data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/GC-meeting22Jul2023Dehradun.jpg?updatedAt=1693416733375" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">IETE</h2>
@@ -48,7 +49,7 @@ export default function Gallery() {
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/Slide4.jpeg?updatedAt=1693417547699" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">PROFESSIONAL RESUME WRITING</h2>
@@ -58,7 +59,7 @@ export default function Gallery() {
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/NoidaCentreNielitMoU.jpg?updatedAt=1693417396873" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">IETE Noida Centre and NIELIT</h2>
@@ -68,7 +69,7 @@ export default function Gallery() {
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/Slide9.jpeg?updatedAt=1693464347224" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">MATLAB PROGRAMMING TECHNIQUES</h2>
@@ -78,7 +79,7 @@ export default function Gallery() {
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/IMG-20221229-WA0023.jpg?updatedAt=1693417457097" />
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Dr Shiban Koul presentation</h2>
@@ -88,44 +89,44 @@ export default function Gallery() {
           </div>
         </div>
       </div>
+      
     </div>
   </section>
   <section class="text-gray-600 body-font md:hidden lg:hidden xl:hidden">
-    <div class="container px-5 pb-5 mx-auto">
-      
+    <div class="container px-5 pb-5 mx-auto">   
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/images%20(2).jpg?updatedAt=1693488849921" />
             
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/images%20(3).jpg?updatedAt=1693488943817" />
             
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/aurangabad8-9may23.jpg?updatedAt=1693417425466" />
             
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/IETEdoodarshand21Jul23Dehradun.jpg?updatedAt=1693417504526" />
             
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/images%20(1).jpg?updatedAt=1693488833041" />
             
           </div>
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-4">
-          <div class="flex relative hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="flex relative md:hover:motion-safe:animate-[bounce_2s_ease-in-out_infinite] cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/images.jpg?updatedAt=1693488814502" />
             
           </div>
@@ -133,9 +134,11 @@ export default function Gallery() {
       </div>
     </div>
   </section>
+  
+  
     
   <section class="text-gray-600 body-font hidden md:block xl:block">
-  <div class="container px-5 pb-20 mx-auto flex flex-wrap">
+  <div class="container px-5 pb-10 mx-auto flex flex-wrap">
     
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
@@ -163,6 +166,54 @@ export default function Gallery() {
     </div>
   </div>
 </section> 
+
+<section class="text-gray-600 body-font hidden md:block xl:block">
+    
+    <div class="container px-5  pb-10 mx-auto">
+      
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex h-[300px] overflow-hidden  cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/5.jpg?updatedAt=1693593802810" />
+           
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex h-[300px] overflow-hidden  cursor-pointer " data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/22.jpg?updatedAt=1693593766669" />
+           
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex h-[300px] overflow-hidden  cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/16.jpg?updatedAt=1693593567064" />
+            
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex h-[300px] overflow-hidden  cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/15.jpg?updatedAt=1693593700064" />
+           
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex h-[300px] overflow-hidden  cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/iete.jpg?updatedAt=1693593602915" />
+            
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex  h-[300px] overflow-hidden  cursor-pointer" data-aos="zoom-in" data-aos-duration="1000">
+            <img alt="gallery" class="md:hover:scale-125 transition-transform absolute inset-0 w-full h-full object-cover object-center" src="https://ik.imagekit.io/iete/assets/6.jpg?updatedAt=1693593642825" />
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
 </>
   )
 }
