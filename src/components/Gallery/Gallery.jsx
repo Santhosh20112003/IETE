@@ -142,24 +142,24 @@ export default function Gallery() {
     
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-1/2">
+        <div data-aos="zoom-in" data-aos-delay="100" class="md:p-2 p-1 w-1/2">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://ik.imagekit.io/iete/assets/images%20(2).jpg?updatedAt=1693488849921" />
         </div>
-        <div class="md:p-2 p-1 w-1/2">
+        <div data-aos="zoom-in" data-aos-delay="200" class="md:p-2 p-1 w-1/2">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://ik.imagekit.io/iete/assets/images%20(3).jpg?updatedAt=1693488943817" />
         </div>
-        <div class="md:p-2 p-1 w-full"> 
+        <div data-aos="zoom-in" data-aos-delay="300" class="md:p-2 p-1 w-full"> 
           <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://ik.imagekit.io/iete/assets/aurangabad8-9may23.jpg?updatedAt=1693417425466" />
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-full">
+        <div data-aos="zoom-in" data-aos-delay="400" class="md:p-2 p-1 w-full">
           <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://ik.imagekit.io/iete/assets/IETEdoodarshand21Jul23Dehradun.jpg?updatedAt=1693417504526  " />
         </div>
-        <div class="md:p-2 p-1 w-1/2">
+        <div data-aos="zoom-in" data-aos-delay="500" class="md:p-2 p-1 w-1/2">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://ik.imagekit.io/iete/assets/Slide11.jpeg?updatedAt=1693464321199" />
         </div>
-        <div class="md:p-2 p-1 w-1/2">
+        <div data-aos="zoom-in" data-aos-delay="600" class="md:p-2 p-1 w-1/2">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://ik.imagekit.io/iete/assets/images.jpg?updatedAt=1693488814502" />
         </div>
       </div>
