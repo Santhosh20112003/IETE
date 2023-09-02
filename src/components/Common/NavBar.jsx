@@ -25,7 +25,7 @@ const Nav = () => {
         <span className='text-3xl mr-1 pt-2'>
        <a  href="/home#navbar"> <img src="https://ik.imagekit.io/iete/assets/logo192.png?updatedAt=1693563289119" alt="" className='w-[50px] h-[50px]' /></a>
         </span>
-		<h1 className='sm:block 2xl:block hidden mt-2 ms-2 md:hidden text-5xl text-white'>IETE</h1>
+		<h1 className='sm:block 2xl:block hidden mt-2 ms-2 md:block text-5xl text-white'>IETE</h1>
 		
       </div>
       
