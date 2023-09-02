@@ -54,12 +54,12 @@ export default function Footer() {
     </div>
   </div>
   <div className="bg-gray-800 bg-opacity-75">
-    <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+    <div className="container px-5 md:text-start text-center py-6 mx-auto flex items-center sm:flex-row flex-col">
       <p className="flex title-font font-medium items-center md:justify-start justify-center text-white">
         <a href='/home#navbar'><img src="https://ik.imagekit.io/iete/assets/logo192.png?updatedAt=1693563289119" alt="logo" width="50px" height="50px" /></a>
         <span className="ml-3 text-xl">IETE Chennai</span>
       </p>
-      <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© Copyright IETE Chennai. All Rights Reserved <br />
+      <p className="text-sm text-gray-400  sm:ml-6 sm:mt-0 mt-4">© Copyright IETE Chennai. All Rights Reserved <br />
         <a href="https://santhosh-technologies.netlify.app" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">designed by Santhosh-Technologies</a>
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
