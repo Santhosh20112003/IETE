@@ -21,8 +21,8 @@ export default function Membership() {
         className="progress-bar fixed top-0 left-0 right-0 h-[5px] bg-red-600 z-50 origin-[0%] "
         style={{ scaleX: scaleX }}
       />
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
+  <div class="container px-5 pb-24 pt-16 mx-auto">
+    <div class="flex flex-col text-center w-full mb-16">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Join MemberShip</h1>
      
     </div>
