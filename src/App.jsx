@@ -8,7 +8,6 @@ import Events from "./components/Events/Events";
 import Membership from "./components/Membership/Membership";
 import Gallery from "./components/Gallery/Gallery";
 import Chencon from "./components/Chencon/Chencon";
-import ChenLink from "./components/ChenLink/ChenLink";
 import Error from "./components/Error/Error";
 import { Route,Routes} from 'react-router-dom';
 import "./index.css";
@@ -33,8 +32,7 @@ function App() {
        <Route path='events' element={<Events/>} />
        <Route path='membership' element={<Membership/>} />
        <Route path='gallery' element={<Gallery/>} />
-       <Route path='chencon' element={<Chencon/>} />
-       <Route path='chenlink' element={<ChenLink/>} />       
+       <Route path='chencon' element={<Chencon/>} />      
        <Route path='*' element={<Error />}/>
     </Routes> 
     <Footer/>

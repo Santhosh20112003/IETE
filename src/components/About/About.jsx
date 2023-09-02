@@ -22,16 +22,16 @@ export default function About() {
         style={{ scaleX: scaleX }}
       />
 		<section id="main" class=" text-gray-600 body-font">
-    <div class="flex flex-col text-center w-full mt-10">
-      <h1 class="text-4xl font-medium title-font  text-gray-900">About</h1>
+    <div class="flex flex-col text-center w-full mt-16">
+      <h1 class="text-4xl font-medium title-font  text-gray-900">ABOUT US</h1>
     </div>
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <div class="container  mx-auto flex px-5 pt-16 pb-24 md:flex-row flex-col items-center">
     
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img data-aos-duration="1000" data-aos="zoom-out" class="object-cover object-center rounded" alt="hero" src="https://ik.imagekit.io/iete/assets/about.jpg?updatedAt=1693463824579" />
     </div>
     <div data-aos-duration="1000" data-aos="fade-left" class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col gap-2 md:items-start md:text-left items-center text-center">
-      <h1 className='text-xl w-full text-gray-900'>IETE - The Institution of Electronics and Telecommunication Engineers</h1>
+      <h1 className='text-xl w-full font-medium text-gray-900'>IETE - The Institution of Electronics and Telecommunication Engineers</h1>
       <p class="text-sm leading-relaxed">Founded in 1953, the Institution of Electronics and Telecommunication Engineers (IETE) is a leading professional society. Its vision is to reach the unreached and empower the youth through Technical Education and Skill development with a Mission for Advancement of Electronics, Telecommunication, Information Technology & other related disciplines; to contribute in Nation's Human Resource & Infrastructure Development through our Engineers & Scientists. The Government of India, Ministry of Science and Technology, Department of Scientific & Industrial Research has recognized IETE as a Scientific and Industrial Research Organization (SIRO). The Institution has also been notified as an Educational Institution of National Eminence by the Government of India. IETE is governed by its elected Governing Council headed by an elected President. It has on its roll the Secretary General – the head of IETE Secretariat as Chief Executive. The Institution is managed through various Committees and Boards nominated by the Governing Council. The 63 Centers are spread all over India 02 abroad and are managed by respective Executive Committees. To keep pace with technological development and achieve the mission, it organizes conferences, conventions, symposia, seminars, workshops, publications and brain storming sessions for continued knowledge upgradation of its members.</p>
       
     </div>

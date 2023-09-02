@@ -35,7 +35,10 @@ function Chencon() {
         style={{ scaleX: scaleX }}
       />
 			<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mt-10">
+      <h1 class="text-4xl font-medium title-font  text-gray-900">Chencon</h1>
+    </div>
+  <div class="container px-5 pb-24 pt-16 mx-auto">
     
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
       <div  data-aos-duration="500" data-aos="zoom-in"  class="p-4 md:w-1/4  sm:mb-0 mb-6">
@@ -60,7 +63,7 @@ function Chencon() {
       </div>
 	  <div data-aos-duration="500" data-aos="zoom-in"  class="p-4 md:w-1/4 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-fill transition-all hover:brightness-100 brightness-75  object-center h-full w-full" src="https://ik.imagekit.io/iete/assets/chenlink1_3.png?updatedAt=1693505824414" />
+          <img alt="content" class="object-cover transition-all hover:brightness-100 brightness-75  object-center h-full w-full" src="https://ik.imagekit.io/iete/assets/chenlink1_3.png?updatedAt=1693505824414" />
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Chenlink NewsLetter <br /> Vol 1, No 3</h2>
         <p class="text-base leading-relaxed mt-2">IETE Chennai Centre
@@ -74,7 +77,7 @@ Chennai, <br /> Tamil Nadu 600086 </p>
       </div>
       <div data-aos-duration="500" data-aos="zoom-in"  class="p-4 md:w-1/4 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-fill transition-all hover:brightness-100 brightness-75 object-center h-full w-full" src="https://ik.imagekit.io/iete/assets/chenlink1_2.png?updatedAt=1693506477852" />
+          <img alt="content" class="object-cover transition-all hover:brightness-100 brightness-75 object-center h-full w-full" src="https://ik.imagekit.io/iete/assets/chenlink1_2.png?updatedAt=1693506477852" />
         </div>
         <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Chenlink NewsLetter <br /> Vol 1, No 2</h2>
         <p class="text-base leading-relaxed mt-2">IETE Chennai Centre
